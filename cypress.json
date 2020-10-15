@@ -1,0 +1,8 @@
+{
+  "experimentalComponentTesting": true,
+  "componentFolder": "app/javascript/components",
+  "testFiles": "**/*.spec.*",
+  "env": {
+    "coverage": false
+  }
+}
