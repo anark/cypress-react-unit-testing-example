@@ -1,6 +1,13 @@
 This is a app generated using @rails/webpacker with react and typescript defaults
 
 It is an attempt to get it working with https://github.com/bahmutov/cypress-react-unit-test so I have added a very basic component test and the loadWebpack config
+Almost everything here is from a default rails app(required to use webpacker) but the only things of concern are getting the cypress component test working.
+
+The only modified files are
+- cypress.json
+- cypress/plugins/index.js
+- cypress/support/index.js
+- app/javascript/components
 
 Currently there are two issue that seem to be blocking this from working.  You see these errors when trying to run the component test `Hello.spec.tsx`
 
@@ -14,5 +21,5 @@ Install dependencies and open cypress with
 
 ```
 yarn install
-yarn cypress open` and selecting
+yarn cypress open
 ```
